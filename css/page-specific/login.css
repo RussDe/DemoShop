@@ -1,0 +1,33 @@
+ .big {
+     margin-left: 100px;
+ }
+
+ .component-title {
+     margin-left: 100px;
+ }
+
+ .button {
+     margin-left: 100px;
+ }
+
+ .component-modal-view {
+     height: 200px;
+ }
+
+ body {
+     background-image: url("images/bg/background.jpg");
+     background-repeat: repeat;
+ }
+
+ body::after {
+     background-image: url("images/bg/background.jpg");
+     background-repeat: repeat;
+     filter: blur(1px) brightness(50%);
+     content: '';
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;
+ }

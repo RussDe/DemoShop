@@ -1,0 +1,49 @@
+/*Text Input*/
+
+/*body {
+    background-color: #F5F5F5;
+}*/
+
+.regular {
+    width: 291px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "PT Sans";
+    padding: 10px 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.invalid {
+    border: solid #ff0000;
+}
+
+.big {
+    width: 450px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "PT Sans";
+    padding-left: 10px;
+    padding-right: 50px;
+    /*background: url(../../images/profile.jpg) no-repeat;*/
+}
+
+.add_icon {
+    position: relative;
+    left: -50px;
+    vertical-align: middle;
+    color: #ecebe9;
+}
+
+.negative {
+    color: #ff0000;
+}
+
+.big:not(.invalid):focus+.add_icon {
+    color: #95bbb4;
+}

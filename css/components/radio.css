@@ -1,0 +1,21 @@
+/*Radio Buttons*/
+
+input[type=radio] {
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+input[type=radio]+label {
+    display: inline-block;
+    margin-left: -28px;
+    padding-left: 28px;
+    background: url('../../images/radio_not_checked.jpg') no-repeat left;
+    line-height: 25px;
+}
+
+input[type=radio]:checked+label {
+    background: url('../../images/radio_checked.jpg') no-repeat left;
+}

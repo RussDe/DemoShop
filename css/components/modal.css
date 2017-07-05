@@ -1,0 +1,56 @@
+ .component-modal {
+     width: 730px;
+     height: 485px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.61);
+     /*padding: 50px;*/
+     /*border-bottom: 1px solid #ccc;*/
+     border-radius: 10px;
+     background-color: #ecebe9;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .component-modal-title {
+     width: 730px;
+     height: 68px;
+     background-color: #ffffff;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+
+ .title-text {
+     width: 609px;
+     height: 23px;
+     font-family: 'PT Sans';
+     font-size: 22px;
+     font-weight: 700;
+     text-transform: capitalize;
+     text-align: center;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .component-modal-view {
+     width: 637px;
+     height: 266px;
+     font-size: 16px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .modal-buttons {
+     width: 400px;
+     height: 50px;
+     margin-top: 320px;
+     margin-left: 320px;
+     position: relative;
+     margin-bottom: 20px;
+ }

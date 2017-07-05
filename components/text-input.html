@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Text Input</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+
+    <style>
+        /*
+            Put your this page-specific styles here
+            These styles will not affect your 'Demo Shop' styles
+        */
+
+        .component {
+            padding: 50px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .component-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- component -->
+    <div class="component">
+        <div class="component-title">Text input - Regular </div>
+
+        <div class="component-view">
+            <input type="text" class="regular">Default
+        </div>
+        <br>
+        <div class="component-view">
+            <input type="text" class="regular invalid">Invalid
+        </div>
+    </div>
+
+    <!-- component -->
+    <div class="component">
+        <div class="component-title">Text input - Big with an icon </div>
+
+        <div class="component-view">
+            <input id="input_big" type="text" class="big" />
+            <i class="fa fa-user fa-3x add_icon"></i>
+        </div>
+        <br>
+        <div class="component-view">
+            <input id="input_big" type="text" class="big invalid" />
+            <i class="fa fa-user fa-3x add_icon negative"></i>
+        </div>
+        <br>
+    </div>
+
+
+</body>
+
+</html>

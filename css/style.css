@@ -1,0 +1,21 @@
+/* global styles*/
+@import "global/reset.css";
+@import "global/global.css";
+
+/* component-specific styles */
+@import "components/button.css";
+@import "components/checkbox.css";
+@import "components/modal.css";
+@import "components/radio.css";
+@import "components/range-selector.css";
+@import "components/select.css";
+@import "components/text-input.css";
+@import "components/textarea.css";
+
+/* font awesome */
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css";
+
+/* page-specific styles */
+@import "page-specific/products-list.css";
+@import "page-specific/manager.css";
+@import "page-specific/login.css";

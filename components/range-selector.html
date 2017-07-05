@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Range Selectors</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!--<link rel="stylesheet" href="/resources/demos/style.css">-->
+    <!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="../js/range_selectors.js"></script>
+
+    <style>
+        /*
+            Put your this page-specific styles here
+            These styles will not affect your 'Demo Shop' styles
+        */
+
+        .component {
+            padding: 50px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .component-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- component -->
+    <div class="component">
+        <div class="component-title">Range Selector</div>
+        <p>
+            <label for="amount">Price range:</label>
+            <input type="text" id="amount" readonly style="font-weight:bold;">
+        </p>
+        <br>
+        <div class="component-view">
+            <div style="width: 320px">
+                <div class="flat-slider" id="flat-slider"></div>
+            </div>
+            <br>
+            <span id="slider_legend_1">
+            </span>
+            <span id="slider_legend_2">
+            </span>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

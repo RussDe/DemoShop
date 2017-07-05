@@ -1,0 +1,73 @@
+/*Primary Button - Big*/
+
+.button {
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700;
+    min-width: 170px;
+    padding: 10px 20px;
+    border: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    min-height: 50px;
+    /*
+        Hint: you can also use http://colorzilla.com/gradient-editor/ 'Import image'
+
+         - Make screen shot, I'd recommend Lightshot tool for OSX (https://app.prntscr.com/en/index.html)
+         - Select ONLY gradient area and save it (the result could look like http://i.imgur.com/wUTk47c.png)
+         - Select 'Import image' and upload this image to generate actual CSS
+         - Strip out unnecessary old browsers-specific styles
+    */
+    background: linear-gradient(to top, #278473 0%, #3fcbcc 100%);
+}
+
+.button:active {
+    background: linear-gradient(to top, #3fcbcc 0%, #278473 100%);
+}
+
+.button:disabled {
+    cursor: default;
+    opacity: .50;
+}
+
+
+/*Secondary Button - Big*/
+
+.secondary_default {
+    background: linear-gradient(to top, #767676 0%, #b1b1b1 100%);
+}
+
+.button.secondary_default:active {
+    background: linear-gradient(to top, #b1b1b1 0%, #767676 100%);
+}
+
+
+/*Primary Button - Regular*/
+
+.button_regular {
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 400;
+    min-width: 120px;
+    padding: 10px 20px;
+    border: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    min-height: 35px;
+    background: linear-gradient(to top, #278473 0%, #3fcbcc 100%);
+}
+
+.button_regular:active {
+    background: linear-gradient(to top, #3fcbcc 0%, #278473 100%);
+}
+
+.button_regular:disabled {
+    cursor: default;
+    opacity: .50;
+}

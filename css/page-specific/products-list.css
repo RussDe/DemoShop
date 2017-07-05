@@ -1,0 +1,14 @@
+.products {
+    font-size: 0; /* <- see https://iamsteve.me/blog/entry/inline_block to get more info about that */
+}
+
+.product {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(33.333% - 20px); /* need to deduct left and right margin values - 10px+10px for this block */
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    font-size: 14px;
+    background-color: #ffffff;
+}

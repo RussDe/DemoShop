@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    /* strongly recommended to get into this thing: https://developer.mozilla.org/en/docs/Web/CSS/box-sizing */
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    /*background: #fff;*/
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* <- this rule centers 'display: block' items horizontally relatively the parent  */
+    min-height: 100%;
+    display: flex;
+    /* <- next two rules say that children to be centered vertically relatively the parent */
+    align-items: center;
+}
+
+
+/* header */
+
+.header {
+    height: 50px;
+    /*border-bottom: 2px solid #000;*/
+    background: #278473;
+}
+
+.header .user {
+    margin-left: auto;
+    color: #fff;
+    /* <- this rule in combination win flex rules above says that the item should be aligned to the right */
+}
+
+.header .user em {
+    font-style: italic;
+}
+
+
+/* main */
+
+.content {
+    background-image: url("../../images/bg/background.jpg");
+    background-repeat: repeat;
+}
+
+.content .container {
+    display: block;
+    padding: 20px 30px;
+    min-height: calc(100vh - 100px);
+    /* <- more info here https://css-tricks.com/couple-takes-sticky-footer/ */
+    /*background-color: lightgray;*/
+    background-image: url("../../images/bg/background.jpg");
+    background-repeat: repeat;
+    filter: brightness(90%);
+}
+
+
+/* footer */
+
+.footer {
+    height: 50px;
+    /*border-top: 2px solid #000;*/
+    background: #278473;
+}
+
+.footer-text {
+    display: inline-block;
+    margin: 0 auto;
+    height: 16px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.demo-shop {
+    text-decoration: underline;
+    color: #fff;
+}
